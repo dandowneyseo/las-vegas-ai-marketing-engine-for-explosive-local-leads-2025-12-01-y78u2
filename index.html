@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las Vegas AI Marketing Engine - Dominate your local market with 24/7 AI-powered lead capture. Zero ads, explosive results. Get more leads daily.">
+    <meta name="keywords" content="Las Vegas marketing, AI marketing, local leads, lead generation, Las Vegas SEO">
+    <meta name="author" content="Dan Downey SEO">
+    <meta property="og:title" content="Las Vegas AI Marketing Engine for Explosive Local Leads">
+    <meta property="og:description" content="Dominate Las Vegas with AI power. 24/7 lead capture, zero ads, more leads daily.">
+    <meta property="og:type" content="website">
+    <title>Las Vegas AI Marketing Engine | Explosive Local Leads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #1a1a1a;
+        }
+        
+        .dark-section {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        
+        .accent-blue {
+            color: #4A90E2;
+        }
+        
+        .btn-primary {
+            background-color: #4A90E2;
+            color: #ffffff;
+            border-radius: 9999px;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            transition: all 0.3s ease-out;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary:hover {
+            background-color: #357abd;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-out;
+            border-radius: 1rem;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-out;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .dark-card {
+            background-color: #252525;
+            border-radius: 1rem;
+            padding: 2rem;
+            color: #ffffff;
+            transition: all 0.3s ease-out;
+        }
+        
+        .dark-card:hover {
+            background-color: #2d2d2d;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.3s ease-out;
+        }
+        
+        .faq-question:hover {
+            color: #4A90E2;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease-out;
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+            transition: all 0.3s ease-out;
+        }
+        
+        .faq-answer.hidden {
+            display: none;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+        
+        .testimonial-card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-out;
+        }
+        
+        .testimonial-card:hover {
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .star-rating {
+            color: #fbbf24;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease-out;
+        }
+        
+        .mobile-menu.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="scroll-smooth">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">AI</span>
+                </div>
+                <span class="font-bold text-xl text-black hidden sm:inline">Vegas AI</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#features" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300">About</a>
+            </div>
+
+            <!-- CTA Button Desktop -->
+            <div class="hidden md:block">
+                <a href="https://calendly.com/dandowneyseo/30min" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                    Book a Call
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-gray-700 hover:text-blue-600 transition-colors duration-300">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-8 py-4 flex flex-col gap-4">
+                <a href="#features" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300 py-2">Features</a>
+                <a href="#benefits" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                <a href="#testimonials" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                <a href="#about" class="text-gray-700 font-medium hover:text-blue-600 transition-colors duration-300 py-2">About</a>
+                <a href="https://calendly.com/dandowneyseo/30min" target="_blank" rel="noopener noreferrer" class="btn-primary text-center mt-2">
+                    Book a Call
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-32 md:py-40 lg:py-48 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 right-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-10 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight mb-6">
+                        Las Vegas AI Marketing Engine for Explosive Local Leads
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 font-medium mb-8 leading-relaxed">
+                        Dominate Las Vegas With AI Power 24/7 Lead Capture Zero Ads
+                    </p>
+                    <p class="text-lg text-gray-400 mb-12 leading-relaxed max-w-xl">
+                        Transform your Las Vegas business with cutting-edge AI technology that captures leads around the clock. No expensive ad spending. No complicated setups. Just pure, automated lead generation power that works while you sleep.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://calendly.com/dandowneyseo/30min" target="_blank" rel="noopener noreferrer" class="btn-primary text-center text-lg">
+                            Start Your Free Consultation
+                        </a>
+                        <button class="px-8 py-3 rounded-full border-2 border-white text-white font-semibold hover:bg-white hover:text-black transition-all duration-300 hover:scale-105">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex justify-center items-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl transform rotate-3 opacity-20"></div>
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-500 rounded-2xl transform -rotate-2 opacity-30"></div>
+                        <div class="relative bg-white rounded-2xl shadow-2xl p-8 flex flex-col items-center justify-center h-full">
+                            <svg class="w-24 h-24 text-blue-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            <p class="text-2xl font-bold text-gray-900 text-center">AI-Powered Lead Generation</p>
+                            <p class="text-gray-600 text-center mt-4">24/7 Automated Lead Capture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 tracking-tight">
+                    Las Vegas Local Marketing Automation System
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Powerful features designed specifically for Las Vegas businesses to capture and convert more leads automatically
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">24/7 Automated Lead Capture</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Never miss a potential customer again. Our AI system works around the clock, capturing and qualifying leads even while you sleep. Automatically respond to inquiries in real-time and keep prospects engaged.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Zero Ad Spending Required</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Stop wasting money on expensive paid advertising. Our system generates leads through organic AI-powered methods, eliminating your ad costs entirely. More leads, lower expenses, higher profits.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Advanced Analytics Dashboard</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Track every lead, conversion, and metric in real-time. Get detailed insights into what's working, optimize your strategy on the fly, and watch your ROI grow with data-driven decisions.
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5a4 4 0 100-8 4 4 0 000 8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Smart Lead Qualification</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our AI instantly evaluates each lead's quality and likelihood to convert. Focus only on hot prospects that matter most. Eliminate time wasted on unqualified leads and boost your conversion rates.
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Customizable for Your Business</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Whether you're in real estate, services, e-commerce, or any other industry, our system adapts to your specific needs. Custom workflows, tailored messaging, and industry-specific optimization included.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Instant Setup & Support</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Get up and running in minutes, not months. Our expert team handles everything from setup to optimization. Dedicated support ensures your system runs perfectly and continuously improves over time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="dark-section py-20 md:py-32">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+                    More Leads Daily Without Spending on Ads
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    Experience the transformation that Las Vegas businesses are achieving with AI-powered lead generation
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                <!-- Benefit 1 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Exponential Lead Growth</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                Watch your lead volume multiply without increasing your ad budget. Our clients report 3-5x more leads within the first 30 days, with costs dropping dramatically compared to traditional advertising.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Dramatically Lower Customer Acquisition Cost</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                Reduce what you spend to acquire each customer by up to 70%. By eliminating expensive ad platforms and using AI-driven organic methods, your profit margins expand significantly while scaling faster.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Reclaim Your Time & Focus</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                Stop spending hours managing ads, chasing leads, and handling follow-ups. Our automation handles everything, freeing you to focus on closing deals and growing your business strategically.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Consistent, Predictable Results</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                No more guessing or algorithm changes affecting your results. AI systems deliver consistent lead flow month after month, allowing you to plan growth with confidence and precision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Higher Quality Leads</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                AI qualification means you get serious prospects ready to buy, not tire-kickers. Our system filters and nurtures only the most promising leads, dramatically improving your close rates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="dark-card">
+                    <div class="flex items-start gap-6">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-3">Competitive Edge in Las Vegas</h3>
+                            <p class="text-gray-300 leading-relaxed">
+                                While your competitors are still paying for ads, you'll be dominating the market with AI-powered lead generation. Stay ahead of the curve and capture market share before they catch up.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-20 md:py-32 relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Dominate Las Vegas?
+            </h2>
+            <p class="text-xl text-gray-200 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Stop leaving money on the table with expensive ads. Get your AI marketing engine running today and start capturing explosive leads tomorrow.
+            </p>
+            <a href="https://calendly.com/dandowneyseo/30min" target="_blank" rel="noopener noreferrer" class="btn-primary text-lg inline-block">
+                Schedule Your Free Strategy Call
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 tracking-tight">
+                    What Our Las Vegas Clients Are Saying
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Real results from real businesses using our AI marketing engine
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="flex gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "This system has been a game-changer for my real estate business. I went from spending $3,000 a month on ads to zero, and my leads actually increased. The AI qualification is spot-on."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-black">Marcus Rodriguez</p>
+                        <p class="text-gray-600 text-sm">Real Estate Agent, Las Vegas</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="flex gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "I was skeptical at first, but the results speak for themselves. In just 45 days, I doubled my lead volume and cut my marketing expenses in half. Best investment I've made."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-black">Jennifer Chen</p>
+                        <p class="text-gray-600 text-sm">Dental Practice Owner, Las Vegas</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="flex gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "The 24/7 lead capture has transformed my business. I'm getting qualified leads coming in constantly, even at 3 AM. The system does all the heavy lifting. Absolutely incredible ROI."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-black">David Thompson</p>
+                        <p class="text-gray-600 text-sm">Home Services Contractor, Las Vegas</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="flex gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Dan's team made everything so easy. The setup was painless, and within weeks I saw a dramatic increase in quality leads. My closing rate is higher, and my costs are lower. This is the future."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-black">Sarah Martinez</p>
+                        <p class="text-gray-600 text-sm">Financial Services, Las Vegas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="dark-section py-20 md:py-32">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-12 tracking-tight text-center">
+                About Our Mission
+            </h2>
+
+            <div class="space-y-8">
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    We founded Vegas AI Marketing with a singular mission: to revolutionize how Las Vegas businesses generate leads. Frustrated by the rising costs of traditional advertising and the unpredictable nature of ad platforms, we assembled a team of AI experts, marketing strategists, and automation specialists to build something better. Over the past several years, we've refined our system through thousands of successful implementations, learning exactly what works for local businesses across every industry imaginable. Today, our technology powers lead generation for hundreds of Las Vegas companies, from solo entrepreneurs to established enterprises, delivering consistent, predictable results that traditional marketing simply cannot match.
+                </p>
+
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    Our core belief is that technology should work for you, not against you. We're committed to making AI-powered lead generation accessible, affordable, and effective for businesses of all sizes. We don't believe in black-box systems or vague promises. Instead, we provide transparent analytics, dedicated support, and continuous optimization to ensure your success. Our values—integrity, innovation, and client success—guide everything we do. When you partner with us, you're not just getting a software tool; you're gaining a strategic partner invested in your growth and committed to delivering exceptional results that drive real business outcomes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">AI</span>
+                        </div>
+                        <span class="font-bold text-xl">Vegas AI</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        AI-powered lead generation for Las Vegas businesses. More leads, zero ads, explosive growth.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-bold text-white mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-bold text-white mb-6">Contact</h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="mailto:dandowneyseo@gmail.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                dandowneyseo@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://calendly.com/dandowneyseo/30min" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 flex items-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
+                                Book a Call
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h3 class="font-bold text-white mb-6">Follow Us</h3>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2025 Vegas AI Marketing. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
